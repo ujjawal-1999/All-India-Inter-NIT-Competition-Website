@@ -36,24 +36,24 @@ body a {
 	line-height: 2em;
 }
 
-.contact_grid_right h4 {
+.contact_right h4 {
 	font-size: 1.2em;
 	color: #ffffff;
 	font-weight: 600;
 	margin-bottom: .5em;
 }
 
-.contact_grid_right p a {
+.contact_right p a {
 	color: #555;
 	text-decoration: none;
 }
 
-.contact_grid_right p span {
+.contact_right p span {
 	display: block;
 }
 
 @media(max-width:991px) {
-	.contact_grids_info {
+	.contact_info {
 		padding: 0;
 		margin-top: 1em;
 	}
@@ -710,7 +710,7 @@ a.sign {
 	width: 100%;
 }
 
-.sec_video {
+.section_style {
 	padding: 6em 0;
 	background: #324248;
 }
@@ -828,7 +828,7 @@ a.sign {
 	text-decoration: none;
 }
 
-.botttom-nav-w3ls-agile {
+.bottom_layout {
 	margin-bottom: 2em;
 }
 
@@ -839,23 +839,23 @@ h3.subheading {
 	letter-spacing: 1px;
 }
 
-.botttom-nav-w3ls-agile ul li {
+.bottom_layout ul li {
 	display: block;
 	margin: 10px 0px;
 }
 
-.botttom-nav-w3ls-agile ul li a {
+.bottom_layout ul li a {
 	color: #8691ab;
 	letter-spacing: 1px;
 	font-size: 14px;
 	text-decoration: none;
 }
 
-ul.f_links.thrd li a {
+ul.links.thrd li a {
 	font-weight: 600;
 }
 
-.botttom-nav-w3ls-agile ul li a:hover {
+.bottom_layout ul li a:hover {
 	color: #ff3c41;
 	text-decoration: none;
 }
@@ -1042,7 +1042,7 @@ ul.short li a {
 	.top_spl_courses,
 	.services,
 	.what-wedo,
-	.sec_video,
+	.section_style,
 	.banner_bottom.tesimonials,
 	.banner_bottom {
 		padding: 5em 0;
@@ -1051,7 +1051,7 @@ ul.short li a {
 		float: right;
 		width: 14%;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 3em;
 	}
 }
@@ -1099,7 +1099,7 @@ ul.short li a {
 	.top_spl_courses,
 	.services,
 	.what-wedo,
-	.sec_video,
+	.section_style,
 	.banner_bottom.tesimonials,
 	.banner_bottom,
 	.bottom-social,
@@ -1182,10 +1182,10 @@ ul.short li a {
 	.about-gd.ab-right {
 		margin-top: 2em;
 	}
-	ul.f_links {
+	ul.links {
 		margin: 1em 0;
 	}
-	.botttom-nav-w3ls-agile {
+	.bottom_layout {
 		margin-bottom: 1em;
 		padding: 0;
 	}
@@ -1202,7 +1202,7 @@ ul.short li a {
 	.carousel-control {
 		margin-top: 66px;
 	}
-	ul.f_links:nth-child(2) {
+	ul.links:nth-child(2) {
 		margin: 1.5em 0;
 	}
 	.gallery-grid1 .p-mask,
@@ -1271,7 +1271,7 @@ ul.short li a {
 	.banner-top3 {
 		min-height: 549px;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 2.8em;
 	}
 	.copy {
@@ -1425,13 +1425,13 @@ ul.short li a {
 	.carousel-control {
 		margin-top: 272px;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 2.6em;
 	}
 	.top_spl_courses,
 	.services,
 	.what-wedo,
-	.sec_video,
+	.section_style,
 	.banner_bottom.tesimonials,
 	.banner_bottom,
 	.bottom-social,
@@ -1543,7 +1543,7 @@ ul.short li a {
 		font-size: 1.5em;
 		padding-bottom: 16px;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 2.2em;
 	}
 	h4.sub-hdng {
@@ -1653,7 +1653,7 @@ ul.short li a {
 		margin: 0 auto;
 		width: 95%;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 2em;
 	}
 	.callbacks_tabs {
@@ -1677,7 +1677,7 @@ ul.short li a {
 }
 
 @media(max-width:375px) {
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 1.8em;
 	}
 	.banner_bottom_in iframe {
@@ -1692,7 +1692,7 @@ ul.short li a {
 	.top_spl_courses,
 	.services,
 	.what-wedo,
-	.sec_video,
+	.section_style,
 	.banner_bottom.tesimonials,
 	.banner_bottom,
 	.bottom-social,
@@ -1749,7 +1749,7 @@ ul.short li a {
 	.navbar-default .navbar-brand {
 		font-size: 40px;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 1.6em;
 	}
 	.banner-top,
@@ -1776,13 +1776,13 @@ ul.short li a {
 		font-size: 10px;
 		margin: 1em 0.3em 0 0em;
 	}
-	h3.header_w3layouts_agile {
+	h3.header_layout {
 		font-size: 1.4em;
 	}
 	.top_spl_courses,
 	.services,
 	.what-wedo,
-	.sec_video,
+	.section_style,
 	.banner_bottom.tesimonials,
 	.banner_bottom,
 	.bottom-social,
