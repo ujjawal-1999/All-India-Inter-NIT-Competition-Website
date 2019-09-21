@@ -50,7 +50,7 @@
 									<a class="active" href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="#about">About</a>
+									<a href="#about">About Us</a>
 								</li>
 								<li class="dropdown">
 									<a href="team.html" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false" target="_blank">Our Team</a>
@@ -120,7 +120,7 @@
 						Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
 					Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
 				Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis</p>
-				<button class="style_pdf"><a href="PDF/rul12.pdf" target="_blank">Rules</a></button>
+				<button class="style_pdf"><a href="PDF/rul12.pdf" target="_blank">RULES</a></button>
 					</div>
 				</div>
 				<div class="col-md-4 about-gd1" data-aos="fade-down">
@@ -135,7 +135,7 @@
 				Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
 			Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
 			Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
-			<button class="style_pdf"><a href="PDF/rul12.pdf" target="_blank">Rules</a></button>
+			<button class="style_pdf"><a href="PDF/rul12.pdf" target="_blank">RULES</a></button>
 					</div>
 					<!-- <div class="about-sub-gd">
 						<h4>NITS Achievements</h4>
@@ -153,6 +153,57 @@
 		</div>
 	</div>
 </div>
+
+<div class="slideshow-container" style="margin:0% 10%">
+
+		<div class="mySlides fade" >
+		  <div class="numbertext">1 / 3</div>
+		  <img src="images/pg1.jpg" style="width:100%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="images/pg2.jpg" style="width:100%">
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 3</div>
+		  <img src="images/pg3.jpg" style="width:100%">
+		</div>
+		
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+		
+		<script>
+		var slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+		</script>
+
+
+
 	<div id="contact">
 	<footer class="contact-footer">
 		<div class="bottom-social">
@@ -163,16 +214,16 @@
 							<a href="index.html" style="font-size: 1.5vw;">Home</a>
 						</li>
 						<li>
-							<a href="#about" style="font-size: 1.5vw;">About</a>
+							<a href="#about" style="font-size: 1.5vw;">About Us</a>
 						</li>
 						
 					</ul>
 					<ul class="links col-md-4" data-aos="zoom-in">
 						<li>
-							<a href="team.html"  style="font-size: 1.5vw;">Team</a>
+							<a href="team.html"  style="font-size: 1.5vw;">Our Team</a>
 						</li>
 						<li>
-							<a href="#contact" style="font-size: 1.5vw;">Contact</a>
+							<a href="#contact" style="font-size: 1.5vw;">Contact Us</a>
 						</li>
 					</ul>
 				<div class="clearfix"></div>
