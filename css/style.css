@@ -81,7 +81,7 @@ html,
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Century Gothic',sans-serif;
 	background: #fff;
 }
 
@@ -105,7 +105,7 @@ h5,
 h6 {
 	margin: 0;
 	font-weight: 400;
-	font-family: 'Mallanna', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 }
 
 p {
@@ -250,6 +250,18 @@ h6 a {
 .navbar-default {
 	background: none;
 	border-color: #012231;
+}
+.style_pdf{
+	background: #2a8bff;
+	border:1px solid transparent;
+	padding:3% 10%;
+	margin-left:40%;
+	margin-top:5%;
+}
+.style_pdf a{
+	color:#0f1536;
+	font-weight:bolder;
+	text-align:center;
 }
 
 .navbar-default .navbar-brand {
@@ -404,7 +416,7 @@ a.sign {
 }
 
 .banner-top {
-	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background: url(../images/banner1.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -414,7 +426,7 @@ a.sign {
 }
 
 .banner-top1 {
-	background: url(../images/banner2.jpg) no-repeat 0px 0px;
+	background: url(../images/banner2.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -424,7 +436,7 @@ a.sign {
 }
 
 .banner-top2 {
-	background: url(../images/banner3.jpg) no-repeat 0px 0px;
+	background: url(../images/banner3.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -434,7 +446,7 @@ a.sign {
 }
 
 .banner-top3 {
-	background: url(../images/banner4.jpg) no-repeat 0px 0px;
+	background: url(../images/banner4.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -665,7 +677,7 @@ a.sign {
 .callbacks_tabs a:after {
 	content: "\f111";
 	font-size: 0;
-	font-family: FontAwesome;
+	font-family: 'Century Gothic',sans-serif;
 	visibility: visible;
 	display: block;
 	height: 14px;
@@ -729,7 +741,7 @@ a.sign {
 }
 
 .about-gd p {
-	color: #cf4144;
+	color: #ebbd00;
 }
 
 .about-gd1 {
@@ -1022,13 +1034,15 @@ ul.short li a {
 .direction_style{
 	text-decoration: none;
 	cursor:pointer;
-	color:#db332f;
+	color:white;
 	font-size:1em;
-	border:1px solid #78c0bf;
+	background:#3b455d;
 	padding:8px;
 	margin-top: 20px;
 }
-
+.direction_style:hover{
+	color:#2a8bff;
+}
 @media(max-width:1680px) {
 	.banner-info {
 		text-align: center;

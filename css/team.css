@@ -2,7 +2,7 @@ html,
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Century Gothic',sans-serif;
 	background: #fff;
 }
 
@@ -26,7 +26,7 @@ h5,
 h6 {
 	margin: 0;
 	font-weight: 400;
-	font-family: 'Mallanna', sans-serif;
+	font-family: 'Century Gothic',sans-serif;
 }
 
 p {
@@ -94,7 +94,7 @@ ul.team_icons li {
 	transition: 0.5s ease-in;
 	border: 1px solid #ddd;
 	padding: 3em 2em;
-	background: #e8dcdc;
+	background: #ffffff;
 }
 
 .team_icons ul li {
@@ -143,16 +143,15 @@ ul.team_icons li {
 	margin-top: 2em;
 	font-size: 2em;
 	font-weight: bolder;
-	font-family: "The Times Roman",san-serif;
-	color:black;
+	font-family: 'Century Gothic',sans-serif;
+	color:#e3bc33;
 }
 .style_message,.style_message1{
 	color:#ffffff;
-	font-size: 1em;
-	font-style: italic;
+	font-size: 1.1em;
 }
 .style_team1{
-	color:#cf4144;
+	color:#dead01;
 }
 .style_message1{
 	color:white;
