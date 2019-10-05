@@ -11,9 +11,12 @@
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<link href="css/font-awesome.css" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
-</head>
+	<link rel="stylesheet" href="css/csss.css">
+	<link rel='stylesheet' href='css/cssd.css'>
+	<link rel="stylesheet" href="css/cr.css">
+<!--	<link href="//fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Mallanna" rel="stylesheet"> -->
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script></head>
 
 <body>
 	<div class="top-bar_sub">
@@ -109,17 +112,25 @@
 				<div class="col-md-4 about-gd">
 					<div class="about-sub-gd" data-aos="fade-left">
 						<h4>About Us</h4>
-						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
-						Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-					Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-				Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis</p>
+						<p align="justify">The more difficult the victory, the greater the happiness in winning.”-Pele</br/br>
+							For the second time, the prestigious All India Inter NIT Sports meet is back in 
+							NIT Silchar and In this edition of the meet, NIT Silchar will 
+							be hosting two sports-Yoga and Table Tennis. The event will commence on 10th October,2019 
+							and go on till 13th October, 2019. These 3 days will witness fierce competition, wherein 
+							everyone will be shedding their sweat and blood, just to seize one thing- GLORY!
+							The preparations for the premier event has begun in full swing and has garnered the 
+							complete attention of the 4,000+ student fraternity of the college. We are all set 
+							to greet the 500 students who will be arriving from all the NITs from around the 
+							country and make their time with us a memorable one!</p>
 					</div>
 					<div class="about-sub-gd">
 						<h4>Table Tennis Tournament</h4>
-						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
-						Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-					Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-				Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis</p>
+						<p>The matches will be played on state of the art wooden surfaces. To maintain
+							the quality of the surface and to prevent damage, players must wear non-mark gum sole shoes
+							and bring their own TT rackets. The boys' team can have a maximum of 5 members and the
+							girls' team a maximum of 4. The championship will not be individual and will be best of 5
+							matches of 11 points each. The matches will be conducted by STIGA competition 3 star 40+
+							ball(white)</p>
 				<button class="style_pdf"><a href="PDF/rul12.pdf" target="_blank">RULES</a></button>
 					</div>
 				</div>
@@ -130,11 +141,10 @@
 					<div class="about-sub-gd">
 						<h4>Yoga Tournament</h4>
 						<p>
-						Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
-					Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
-				Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
-			Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis 
-			Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+							The competition will be held separately for boys and girls and each team will
+							consist of 6 members(5+1 reserve member). To be eligible for competition, the team must
+							contain at least 5 members. The organisers will draw the sequence of the participating teams
+							and no individual championship will be conducted </p>
 			<button class="style_pdf"><a href="PDF/rul12.pdf" target="_blank">RULES</a></button>
 					</div>
 					<!-- <div class="about-sub-gd">
@@ -154,7 +164,8 @@
 	</div>
 </div>
 
-<div class="slideshow-container" style="margin:0% 10%">
+
+<div class="slideshow-container" style="margin:0% 10%" style="position:relative">
 
 		<div class="mySlides fade" >
 		  <div class="numbertext">1 / 3</div>
@@ -179,30 +190,85 @@
 		  <span class="dot"></span> 
 		  <span class="dot"></span> 
 		</div>
-		
 		<script>
-		var slideIndex = 0;
-		showSlides();
-		
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";  
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1}    
-		  for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " active";
-		  setTimeout(showSlides, 2000); // Change image every 2 seconds
-		}
-		</script>
-
-
+			var slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 4000); // Change image every 2 seconds
+			}
+			</script>
+			<div style="background-color: #1d1d1d;">
+<div class="s" style="padding-bottom: 100px;padding-top:100px;width:80%;height:800px;left:50%;transform: translate(-50%,0%);background-color: #1d1d1d;">
+	<div class="myS">
+	  <img src="images/gallery1.jpg" class="mys1">
+	</div>
+  
+	<div class="myS">
+	  <img src="images/gallery2.jpg" class="mys2"">
+	</div>
+  
+	<div class="myS">
+	  <img src="images/gallery3.jpg" class="mys3">
+	</div>
+	  
+  
+	<div class="myS" style="position:relative">
+	  <img src="images/gallery4.jpg" class="mys4">
+	</div>
+  
+	  
+	<a class="prev" onclick="plusSlides(-1)">❮</a>
+	<a class="next" onclick="plusSlides(1)">❯</a>
+  
+	<div class="caption-container">
+	  <p id="caption"></p>
+	</div>
+  </div>
+</div>
+  <script>
+  var slideI = 1;
+  showS(slideI);
+  
+  function plusSlides(n) {
+	showS(slideI += n);
+  }
+  
+  function currentSlide(n) {
+	showS(slideI = n);
+  }
+  
+  function showS(n) {
+	var i;
+	var slides = document.getElementsByClassName("myS");
+	var dots = document.getElementsByClassName("demo");
+	var captionText = document.getElementById("caption");
+	if (n > slides.length) {slideI = 1}
+	if (n < 1) {slideI = slides.length}
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideI-1].style.display = "block";
+	dots[slideI-1].className += " active";
+	captionText.innerHTML = dots[slideI-1].alt;
+  }
+  </script>
 
 	<div id="contact">
 	<footer class="contact-footer">
@@ -277,6 +343,8 @@
 	<script src="js/aosindex.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+	<script  src="js/script.js"></script>
 	<script>
 		$(function () {
 			$("#slider4").responsiveSlides({
@@ -302,7 +370,7 @@
 				event.preventDefault();
 				$('html,body').animate({
 					scrollTop: $(this.hash).offset().top
-				}, 900);
+				}, 1000);
 			});
 		});
 	</script>

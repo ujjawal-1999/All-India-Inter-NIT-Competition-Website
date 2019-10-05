@@ -416,42 +416,47 @@ a.sign {
 }
 
 .banner-top{
-	background: url(../images/banner1.png) no-repeat 0px 0px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
+	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
 	min-height: 750px;
 }
 
 .banner-top1{
-	background: url(../images/banner2.png) no-repeat 0px 0px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
+	background: url(../images/banner2.jpg) no-repeat 0px 0px;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
 	min-height: 750px;
 }
 
 .banner-top2 {
 	background: url(../images/banner3.png) no-repeat 0px 0px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
 	min-height: 750px;
 }
 
 .banner-top3 {
 	background: url(../images/banner4.png) no-repeat 0px 0px;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+
 	min-height: 750px;
 }
 
@@ -484,15 +489,41 @@ a.sign {
 	font-size: 5em;
 	letter-spacing: 1px;
 	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.42);
-	margin-bottom: 0.2em;
+	margin-bottom: 0.1em;
 	color: #fff;
 }
+@media(min-width:1440px) {
+.banner_bottom_in img{
+	position:relative;
+	height:30%;
+	width:30%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,0%);
+}
+}
+@media(max-width:1440px) {
+	.ss img{
+		display:inline-block;
+		margin:auto;
+		
+	}
+	.bb img{
+	position:relative;
+	height:70%;
+	width:70%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,0%);
+		
+	}
+	}
 
 .banner-info p {
 	font-size: 1em;
 	color: #fff;
-	margin: 1.5em 0;
-	letter-spacing: 6px;
+	margin: 1em 0;
+	letter-spacing: 3px;
 }
 
 .banner-info i {
@@ -704,7 +735,7 @@ a.sign {
 .banner_bottom_in {
 	text-align: center;
 	margin: 0 auto;
-	width: 60%;
+	width: 90%;
 }
 
 .banner_bottom_in p {
@@ -1833,7 +1864,6 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
   margin-top: 30px;
-	height:200px;
 }
 
 /* Caption text */
@@ -1874,20 +1904,23 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 0} 
-  to {opacity: 1.5}
+  0% {opacity: 0} 
+  50% {opacity: 1}
+ 100% {opacity: 0}
+
 }
 
 @keyframes fade {
-  from {opacity: 0} 
-  to {opacity: 1.5}
+  0% {opacity: 0} 
+  50% {opacity: 1}
+ 100% {opacity: 0}
 }
 
 /* On smaller screens, decrease text size */
